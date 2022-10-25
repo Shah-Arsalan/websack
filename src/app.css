@@ -1,7 +1,32 @@
-h1 {
-    color: royalblue;
+html{
+        background-image: url('https://static.vecteezy.com/system/resources/previews/007/276/976/original/colored-seamless-doodle-pattern-with-business-and-technology-set-icons-doodle-with-business-icons-on-white-background-vintage-technology-icons-sweet-elements-background-for-your-project-free-vector.jpg');
+}
+#content{
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(169, 15, 15);
+    margin-top: 15rem;
+    background-color: white;
+    width: max-content;
+    margin-left: 20rem;
+    padding-bottom: 1.5rem;
+    padding-left: 2rem;
+    padding-right: 1rem;
+    border-radius: 1rem;
+    font-family: cursive;
+
 }
 
-h2 {
-    color: orangered;
+#content h1{
+    color: rgb(36, 29, 29);
+    margin: 0;
 }
+
+#content a{
+    margin-top: 1rem;
+    color: rgb(118, 98, 72);
+}
+
