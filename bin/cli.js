@@ -13,7 +13,7 @@ const runCommand= command => {
 }
 
 const repoName = process.argv[2];
-const gitCheckoutCommand = `git clone --depth 1 https://github.com/shah-arsalan/websack ${repoName}`;
+const gitCheckoutCommand = `git clone --depth 1 https://github.com/Shah-Arsalan/websack/tree/starter-command ${repoName}`;
 const installDepsCommand = `cd ${repoName} && npm install`;
 
 console.log(`Cloning the reporsitory with name ${repoName}`);
