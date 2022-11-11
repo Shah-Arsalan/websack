@@ -1,6 +1,6 @@
 {
 	"name": "pure-js-app-starter",
-	"version": "1.0.0",
+	"version": "2.2.1",
 	"description": "Get vanillaJS apps written with modern tools",
 	"main": "index.js",
 	"babel": {
