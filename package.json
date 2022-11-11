@@ -1,6 +1,6 @@
 {
 	"name": "create-websack-app-starter",
-	"version": "2.2.1",
+	"version": "2.2.2",
 	"description": "Get vanillaJS apps written with modern tools",
 	"main": "index.js",
 	"babel": {
