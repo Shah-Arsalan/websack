@@ -51,6 +51,10 @@ Separating Vendor bundle and program code
 
 Caches resources to improve more download over heads.
 
+###### Lazy Loading
+
+Makes use of `preload` and `preflight` request based on users convenience.
+
 ###### Dev Setup
 
 Setting up dev server so we don't have to so a ```npm run build``` every time.
