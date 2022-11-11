@@ -1,5 +1,5 @@
 {
-	"name": "pure-js-app-starter",
+	"name": "create-websack-app-starter",
 	"version": "2.2.1",
 	"description": "Get vanillaJS apps written with modern tools",
 	"main": "index.js",
