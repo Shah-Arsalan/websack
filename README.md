@@ -10,7 +10,7 @@ $ npm i create-websack-app-starter
 ```bash
 $ npx create-websack-app-starter <'your-project-name-here'>
 ```
-This command will clone the repository for you to work on. After the cloning is finished run the below command in the terminal: 
+This command will make a repo of webpack on your local machine. Open the project in your IDE and do a:
 ```bash
 $ npm run build
 ```
