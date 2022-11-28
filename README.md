@@ -1,5 +1,5 @@
 # WebSack
-Start building your dream projects with your very own webpack starter 🥡
+Start building your dream projects with this webpack starter kit using React!
 
 ## Installing
 
