@@ -12,15 +12,28 @@ const webpackConfig = {
 
     module: {
 		rules: [
-			{
-				test: /\.js$/,
-				exclude: /(node_modules)/,
-				use: {
+			// {
+			// 	test: /\.js$/,
+			// 	exclude: /(node_modules)/,
+			// 	use: {
+			// 		loader: "babel-loader",
+			// 		options: {
+			// 			presets: ["@babel/preset-env"]
+			// 		}
+			// 	}
+			// },
+            {
+				test: /\.(js)x?$/,
+				include: path.resolve(__dirname, "src"),
+				exclude: /node_modules/,
+				use: [
+				{
 					loader: "babel-loader",
 					options: {
-						presets: ["@babel/preset-env"]
+						presets: [["@babel/preset-react", { "runtime": "automatic" }]]
 					}
-				}
+				},
+				],
 			},
             
             {
