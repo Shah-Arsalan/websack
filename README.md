@@ -11,7 +11,10 @@ In your commnad prompt run :
 
 ``` $ degit Shah-Arsalan/websack <'your-project-name-here'> ```
 
-This command will make a repo of webpack on your local machine. Open the project in your IDE and do a:
+This command will make a repo of webpack on your local machine. Open the project in your IDE and do:
+
+``` npm install -g webpack ```
+
 ```bash
 $ npm run build
 ```
@@ -29,7 +32,10 @@ $ npm i create-websack-app-starter
 ```bash
 $ npx create-websack-app-starter <'your-project-name-here'>
 ```
-This command will make a repo of webpack on your local machine. Open the project in your IDE and do a:
+This command will make a repo of webpack on your local machine. Open the project in your IDE and do:
+
+``` npm install -g webpack ```
+
 ```bash
 $ npm run build
 ```
